@@ -1,0 +1,116 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# === Python Virtual Environment ===
+venv/
+venv*/ 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Build outputs ===
+build/
+dist/
+.cache/
+.vite/
+.next/
+out/
+coverage/
+temp/
+tmp/
+
+# === Environment & secrets ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+.secrets/
+apikeys.json
+config.js
+
+# === Logs ===
+logs/
+*.log
+logs/*.log
+debug.log
+
+# === Runtime data ===
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# === Database / Storage ===
+data/
+db.sqlite
+*.sqlite
+*.sqlite3
+*.db
+postgres-data/
+*.sql
+*.dump
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# === IDE / Editor files ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Testing ===
+.nyc_output/
+coverage/
+jest-cache/
+jest.config.*.js
+
+# === TypeScript (if used) ===
+*.tsbuildinfo
+
+# === Docker ===
+docker-compose.override.yml
+docker-compose.local.yml
+volumes/
+.docker/
+.dockerignore
+
+# === Frontend (React) ===
+/frontend/build/
+/frontend/node_modules/
+/frontend/.env
+
+# === Backend (Node.js) ===
+/backend/node_modules/
+/backend/.env
+/backend/dist/
+/backend/logs/
+
+# === Misc ===
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+*.zip
+*.tar
+*.tgz
+*.gz
+*.7z
+
+# === Local AI / Model Cache (Gemini or others) ===
+/models/
+/ai_cache/
+/gemini_cache/
+/model_files/
