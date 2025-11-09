@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # 🛡️ Set your Google Gemini API key securely
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDMyHAldMURVg--AHPxM2CNju-OddCvRe0"  # ← Replace with your real key
+os.environ["GOOGLE_API_KEY"] = ""  # ← Replace with your real key
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # ✅ Use the free-tier model
